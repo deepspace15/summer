@@ -1,1 +1,23 @@
+edhesive code
 
+first = input ("Please input your first name: ")
+last = input("Please input your last name: ")
+print (last+", "+first)
+
+w1 = input("Type a word followed by \"Enter\"")
+w2 = input("Type another word followed by \"Enter\"")
+print (w1+" "+w2)
+
+conversion code
+
+#include <isostream>
+using namespace std;
+
+int main()
+{
+	int i;
+	for (i = 0; i < 256 ; i++){
+		cout<<1<<" "<<char(i)<<endl;
+	}
+	return 0;
+}
